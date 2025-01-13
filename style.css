@@ -106,6 +106,7 @@ select {
   border: 1px solid rgba(48, 48, 48, 0.3);
   border-radius: 5px;
   padding: 0 0 0 12px;
+  font-size: 16px;
 }
 
 text-field::placeholder {
@@ -138,6 +139,7 @@ table {
   border-collapse: collapse;
   width: 300px;
   height: 196px;
+  font-size: 14px;
 }
 
 th,
@@ -160,6 +162,7 @@ footer {
   /* Стили для футера */
   background: rgba(163, 167, 255, 0.3);
   height: 70px;
+  padding: 26px 0;
 }
 
 .footer-link {
@@ -168,6 +171,5 @@ footer {
   font-weight: 400;
   font-size: 14px;
   color: #2965f1;
-  padding: 26px 0;
   display: block;
 }
