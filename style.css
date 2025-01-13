@@ -22,13 +22,6 @@ header span {
   font-size: 20px;
   font-weight: 700;
 }
-input,
-textarea,
-select,
-button {
-  font-size: inherit;
-  font-family: inherit;
-}
 
 .main-section {
   /* Стили для первой секции */
