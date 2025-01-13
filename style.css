@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter" serif;
+}
+
+header {
+  /* Стили для хедера */
+  background-color: #2965f1;
+  height: 70px;
+  padding: 23px 0 23px 0;
+}
+
+header span {
+  /* Стили для текста в хедере IT-INCUBATOR */
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.main-section {
+  /* Стили для первой секции */
+  background-color: #fafaff;
+  min-height: 100vh;
+  padding: 60px 0 60px 0;
+}
+
+.main-title {
+  /* Стили для заголовка в первой секции */
+  color: #303030;
+  font-weight: 700;
+  font-size: 48px;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  padding: 0 20px 0 0;
+}
+
+.main-text {
+  /* Стили для текста в первой секции */
+  color: #303030;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.main-image {
+  /* Стили для изображения в первой секции */
+  max-width: 715px;
+}
+
+.about-section {
+  /* Стили для второй секции */
+  background-color: #fff;
+  padding: 100px 0 100px 0;
+  height: 883px;
+}
+
+select {
+  /* Стили для выпадающего списка */
+  width: 150px;
+  height: 36px;
+  background: url(./assets/ep_arrow-down.svg) no-repeat right 10px top 50%;
+  appearance: none;
+  border-radius: 5px;
+  border: 1px solid rgba(48, 48, 48, 0.3);
+}
+
+.section-title {
+  /* Стили для заголовков во второй секции */
+  font-weight: 700;
+  font-size: 24px;
+  color: #303030;
+  padding: 0 0 25px 0;
+}
+
+.frameworks-list {
+  list-style-image: url(./assets/solar_map-arrow-up-bold.svg);
+  font-weight: 400;
+  font-size: 16px;
+  color: #303030;
+  padding-left: 25px;
+}
+
+.books-list {
+  /* Стили для нумерованного списка во второй секции */
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #303030;
+}
+
+.label {
+  /* Стили для подписей чекбоксов */
+  font-weight: 400;
+  font-size: 16px;
+  color: #303030;
+}
+
+.text-field {
+  /* Стили для односточного поля ввода текста */
+  width: 330px;
+  height: 36px;
+  border: 1px solid rgba(48, 48, 48, 0.3);
+  border-radius: 5px;
+  padding: 0 0 0 12px;
+}
+
+text-field::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(48, 48, 48, 0.2);
+  border: none;
+  border-radius: 5px;
+}
+
+.btn {
+  /* Стили для кнопки */
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  width: 125px;
+  height: 36px;
+  background: #2965f1;
+  border: none;
+  border-radius: 5px;
+}
+
+.line {
+  /* Стили для линии */
+  margin: 60px 0 60px 0;
+}
+
+table {
+  /* Стили для таблицы */
+  border-collapse: collapse;
+  width: 300px;
+  height: 196px;
+}
+
+th,
+td {
+  /* Стили для ячеек таблицы */
+  border: 1px solid rgba(48, 48, 48, 0.3);
+  padding: 0 0 0 15px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #303030;
+}
+.table-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: left;
+  color: #303030;
+}
+
+footer {
+  /* Стили для футера */
+  background: rgba(163, 167, 255, 0.3);
+  height: 70px;
+}
+
+.footer-link {
+  /* Стили для футера */
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  color: #2965f1;
+  padding: 26px 0 27px 0;
+  display: block;
+}
